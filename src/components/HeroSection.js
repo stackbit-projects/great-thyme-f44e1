@@ -18,7 +18,7 @@ export default class HeroSection extends React.Component {
                   {_.map(_.get(section, 'actions', null), (action, action_idx) => {
                       let action_style = _.get(action, 'style', null) || 'primary';
                       return (
-                        <Link key={action_idx} href={withPrefix(_.get(action, 'url', null))} className={classNames('link', {'link--filled': action_style === 'primary', 'link--borderless': action_style === 'link'})}>
+                        <Link style={{color: "red"}} key={action_idx} href={withPrefix(_.get(action, 'url', null))} className={classNames('link', {'link--filled': action_style === 'primary', 'link--borderless': action_style === 'link'})}>
                           {_.get(action, 'title', null)}
                           {_.get(action, 'arrow', null) && (
                           <svg width="26" height="14" viewBox="0 0 26 14" xmlns="http://www.w3.org/2000/svg">
