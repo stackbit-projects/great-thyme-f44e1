@@ -6,17 +6,10 @@ sections:
   - section_id: lorem-ipsum
     questions:
       - question: about me
-        answer: >-
+        answer: |
           ## Lorem ipsum
 
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          *   i am the creator of this site
     type: faq_section
 layout: advanced
 ---
