@@ -6,6 +6,7 @@ price: lorem-ipsum
 order: 0
 featured: false
 layout: product
+default_thumbnail_image: images/plant1-lg.jpg
 ---
 ## Lorem ipsum
 
